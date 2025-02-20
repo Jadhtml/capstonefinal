@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="gallery.css">
+	<script src = "gallery.js"></script>
+</head>
+
+<body>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="photogallery.html">Photo Gallery</a>
+		<a href="videogallery.html">Video Gallery</a>
+	</nav>
+	
+	<div id = "image" tabindex="0">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" tabindex="0" alt="kodakedit" src = "images/kodakfinal.png" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" tabindex="0" alt="shadownotitles" src = "images/shadownotitles.png" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" tabindex="0" alt="shadowtitle" src = "images/shadowtitles.png" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" tabindex="0" alt="yujisukuna" src = "images/yujisukunafinal.png" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+
+	<footer>
+		<a href = "https://www.instagram.com/kawaii_skii/">Instagram</a>
+		<a href= "https://www.tiktok.com/@kawaii.ski?lang=en">TikTok</a>
+	</footer>
+</body>
+</html>
